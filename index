@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SwipeTogether – Filme gemeinsam finden / Find movies together</title>
+<meta name="description" content="SwipeTogether: Filme allein oder mit Freunden swipen, Empfehlungen bekommen und eine Watchlist führen. / Swipe movies alone or with friends, get recommendations and keep a watchlist.">
+<style>
+  :root {
+    color-scheme: light dark;
+    --accent: #ff5252;
+  }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+         line-height: 1.6; max-width: 720px; margin: 0 auto; padding: 32px 20px 64px; }
+  header { text-align: center; padding: 24px 0 8px; }
+  .logo { font-size: 2.2rem; font-weight: 800; letter-spacing: .02em; }
+  .logo span { color: var(--accent); }
+  .tagline { font-size: 1.1rem; opacity: .8; margin-top: .2em; }
+  nav { text-align: center; margin: 16px 0 8px; }
+  nav a { margin: 0 .6em; }
+  a { color: var(--accent); }
+  h2 { font-size: 1.2rem; margin-top: 2em; border-bottom: 1px solid #8884; padding-bottom: .2em; }
+  ul { padding-left: 1.2em; }
+  li { margin: .3em 0; }
+  .card { border: 1px solid #8884; border-radius: 14px; padding: 14px 18px; margin: 1em 0; }
+  .small { font-size: .85rem; opacity: .75; }
+  hr { border: 0; border-top: 1px solid #8884; margin: 3em 0 2em; }
+  footer { text-align: center; margin-top: 3em; }
+  footer a { margin: 0 .6em; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo"><span>S</span>wipeTogether</div>
+  <div class="tagline">Filme gemeinsam finden · Find movies together</div>
+</header>
+
+<nav><a href="#de">Deutsch</a><a href="#en">English</a></nav>
+
+<!-- ================================================================== -->
+<section id="de">
+
+<h2>Was ist SwipeTogether?</h2>
+<p>SwipeTogether ist eine App für den gemeinsamen Filmabend: Du wischst durch Filme, bewertest
+sie mit einem Wisch nach rechts oder links und bekommst daraus Empfehlungen – allein oder
+zusammen mit Freunden.</p>
+
+<ul>
+  <li><strong>Swipen:</strong> Film gefällt dir oder nicht – ein Wisch genügt.</li>
+  <li><strong>Team-Sessions:</strong> Swipe mit Freunden und finde den Film, der euch allen gefällt.</li>
+  <li><strong>Watchlist:</strong> Merke dir Filme und bewerte sie mit Sternen.</li>
+  <li><strong>Streaming-Hinweise:</strong> Sieh, bei welchen Diensten ein Film in Deutschland läuft.</li>
+  <li><strong>Filter:</strong> Genre, Jahr, Altersfreigabe und mehr.</li>
+</ul>
+
+<div class="card">
+  <strong>Stand:</strong> SwipeTogether wird gerade mit einem kleinen Kreis von Freunden getestet
+  und ist noch nicht im Play Store erhältlich.
+</div>
+
+<h2>Kontakt</h2>
+<p>Fragen, Fehler oder Wünsche?
+<a href="mailto:swipetogether.support@gmail.com">swipetogether.support@gmail.com</a></p>
+
+<h2>Rechtliches</h2>
+<ul>
+  <li><a href="datenschutz.html">Datenschutzerklärung</a></li>
+  <!-- Impressum: Sobald es ein Impressum gibt, hier verlinken. -->
+</ul>
+
+</section>
+
+<hr>
+
+<!-- ================================================================== -->
+<section id="en" lang="en">
+
+<h2>What is SwipeTogether?</h2>
+<p>SwipeTogether is an app for movie night: swipe through movies, like or skip them with a swipe
+right or left, and get recommendations – alone or together with friends.</p>
+
+<ul>
+  <li><strong>Swipe:</strong> like it or not – one swipe is enough.</li>
+  <li><strong>Team sessions:</strong> swipe with friends and find the movie you all like.</li>
+  <li><strong>Watchlist:</strong> keep movies you want to watch and rate them with stars.</li>
+  <li><strong>Streaming info:</strong> see which services offer a movie in Germany.</li>
+  <li><strong>Filters:</strong> genre, year, age rating and more.</li>
+</ul>
+
+<div class="card">
+  <strong>Status:</strong> SwipeTogether is currently being tested by a small group of friends
+  and is not yet available on Google Play.
+</div>
+
+<h2>Contact</h2>
+<p>Questions, bugs or ideas?
+<a href="mailto:swipetogether.support@gmail.com">swipetogether.support@gmail.com</a></p>
+
+<h2>Legal</h2>
+<ul>
+  <li><a href="datenschutz.html#en">Privacy policy</a></li>
+</ul>
+
+</section>
+
+<footer class="small">
+  <p>Filmdaten und Poster / Movie data and posters:
+     This product uses the TMDB API but is not endorsed or certified by
+     <a href="https://www.themoviedb.org/">TMDB</a>.<br>
+     Streaming availability data provided by
+     <a href="https://www.justwatch.com/">JustWatch</a>.</p>
+  <p>© SwipeTogether</p>
+</footer>
+
+</body>
+</html>
